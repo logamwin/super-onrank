@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyB8XsiDg5iF2sIpQXJ2Qkylta0F6hNJs40",
+  authDomain: "capung4d-web.firebaseapp.com",
+  projectId: "capung4d-web",
+  storageBucket: "capung4d-web.firebasestorage.app",
+  messagingSenderId: "727629210658",
+  appId: "1:727629210658:web:dde32c9be7aa09e21ad67b"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
